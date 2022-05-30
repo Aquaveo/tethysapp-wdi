@@ -1,0 +1,60 @@
+000 (2882.000.000) 10/11 16:31:06 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618+[--1]-9618&noUDP&sock=6767_2d78_4>
+    DAG Node: run_cropwat_model
+...
+001 (2882.000.000) 10/11 16:31:23 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618+[--1]-9618&noUDP&sock=6767_2d78_3>
+...
+005 (2882.000.000) 10/11 16:31:31 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:02, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:02, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	18847  -  Run Bytes Sent By Job
+	5063  -  Run Bytes Received By Job
+	18847  -  Total Bytes Sent By Job
+	5063  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       33        7  13673098
+	   Memory (MB)          :        1        1      5346
+...
+000 (2883.000.000) 10/11 16:31:41 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618+[--1]-9618&noUDP&sock=6767_2d78_4>
+    DAG Node: prepare_results
+...
+001 (2883.000.000) 10/11 16:31:42 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618+[--1]-9618&noUDP&sock=6767_2d78_3>
+...
+005 (2883.000.000) 10/11 16:31:45 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:02, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:02, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	15163  -  Run Bytes Sent By Job
+	6252  -  Run Bytes Received By Job
+	15163  -  Total Bytes Sent By Job
+	6252  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       31        7  13673098
+	   Memory (MB)          :        0        1      5346
+...
+000 (2884.000.000) 10/11 16:31:51 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618+[--1]-9618&noUDP&sock=6767_2d78_4>
+    DAG Node: finalize
+...
+001 (2884.000.000) 10/11 16:31:52 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618+[--1]-9618&noUDP&sock=6767_2d78_3>
+...
+005 (2884.000.000) 10/11 16:31:56 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:02, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:02, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	15828  -  Run Bytes Sent By Job
+	7316  -  Run Bytes Received By Job
+	15828  -  Total Bytes Sent By Job
+	7316  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       33       10  13673098
+	   Memory (MB)          :        0        1      5346
+...

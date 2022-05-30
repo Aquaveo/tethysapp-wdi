@@ -1,0 +1,21 @@
+Create Feature Type Status Code 500: :Unable to obtain connection: The connection attempt failed.
+Traceback (most recent call last):
+  File "/var/lib/condor/execute/dir_695732/condor_exec.exe", line 49, in run
+    spatial_manager.create_extent_layer(datastore_name=datastore_name, resource_id=resource_id)
+  File "/home/hoangtran/tethys/github/tethysext-atcore/tethysext/atcore/services/resource_spatial_manager.py", line 162, in create_extent_layer
+    default_style=default_style,
+  File "/home/hoangtran/tethys/github/tethysext-atcore/tethysext/atcore/services/geoserver_api.py", line 486, in create_layer
+    raise exception
+requests.exceptions.RequestException: Create Feature Type Status Code 500: :Unable to obtain connection: The connection attempt failed.
+RequestExceptionRequestException('Create Feature Type Status Code 500: :Unable to obtain connection: The connection attempt failed.',)Traceback (most recent call last):
+  File "/var/lib/condor/execute/dir_695732/condor_exec.exe", line 74, in <module>
+    run(*args)
+  File "/var/lib/condor/execute/dir_695732/condor_exec.exe", line 65, in run
+    raise e
+  File "/var/lib/condor/execute/dir_695732/condor_exec.exe", line 49, in run
+    spatial_manager.create_extent_layer(datastore_name=datastore_name, resource_id=resource_id)
+  File "/home/hoangtran/tethys/github/tethysext-atcore/tethysext/atcore/services/resource_spatial_manager.py", line 162, in create_extent_layer
+    default_style=default_style,
+  File "/home/hoangtran/tethys/github/tethysext-atcore/tethysext/atcore/services/geoserver_api.py", line 486, in create_layer
+    raise exception
+requests.exceptions.RequestException: Create Feature Type Status Code 500: :Unable to obtain connection: The connection attempt failed.

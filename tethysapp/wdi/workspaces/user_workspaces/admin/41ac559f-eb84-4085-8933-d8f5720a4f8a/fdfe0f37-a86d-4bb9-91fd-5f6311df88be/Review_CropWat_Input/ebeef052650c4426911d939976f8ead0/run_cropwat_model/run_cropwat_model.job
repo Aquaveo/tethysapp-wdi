@@ -1,0 +1,15 @@
+log = $(logdir)/$(job_name).$(cluster).log
+error = $(logdir)/$(job_name).$(cluster).$(process).err
+logdir = logs
+output = $(logdir)/$(job_name).$(cluster).$(process).out
+job_name = run_cropwat_model
+universe = vanilla
+arguments = postgresql://tethys_super:postgres@192.168.99.103:5436/wdi_primary_db None efc6399d-b1f9-4a74-8405-e7710d2f689f 41ac559f-eb84-4085-8933-d8f5720a4f8a fdfe0f37-a86d-4bb9-91fd-5f6311df88be http://admin:geoserver@192.168.99.103:8181/geoserver/rest/ http://admin:geoserver@192.168.99.103:8181/geoserver/rest/ tethysapp.wdi.models.resources.irrigation_zone_resource.WdiIrrigationZoneResource tethysapp.wdi.models.wdi_workflows.prepare_cropwat_demo.PrepareCropWatWorkflow workflow_params.json
+executable = run_cropwat_model.py
+initialdir = $(job_name)
+transfer_executable = TRUE
+transfer_input_files = , ../workflow_params.json
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT_OR_EVICT
+
+queue 1

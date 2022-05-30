@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/var/lib/condor/execute/dir_408733/condor_exec.exe", line 10, in <module>
+    from tethysapp.wdi.models.resources import WdiIrrigationZoneResource, WdiDatasetResource, WdiModelResource  # noqa:F401
+  File "/home/hoangtran/tethys/tethysapp-wdi/tethysapp/wdi/models/resources/__init__.py", line 9, in <module>
+    from tethysapp.wdi.models.resources.dataset_resource import *  # noqa: F401, F403
+  File "/home/hoangtran/tethys/tethysapp-wdi/tethysapp/wdi/models/resources/dataset_resource.py", line 15, in <module>
+    from tethysapp.wdi.app import Wdi as app
+  File "/home/hoangtran/tethys/tethysapp-wdi/tethysapp/wdi/app.py", line 5, in <module>
+    from tethys_apps.models import SpatialDatasetServiceSetting
+  File "/home/hoangtran/.tethys/tethys/tethys_apps/models.py", line 23, in <module>
+    from tethys_services.models import validate_url
+  File "/home/hoangtran/.tethys/tethys/tethys_services/models.py", line 68, in <module>
+    class DatasetService(models.Model):
+  File "/home/hoangtran/miniconda3/envs/tethys_py36/lib/python3.6/site-packages/django/db/models/base.py", line 103, in __new__
+    app_config = apps.get_containing_app_config(module)
+  File "/home/hoangtran/miniconda3/envs/tethys_py36/lib/python3.6/site-packages/django/apps/registry.py", line 252, in get_containing_app_config
+    self.check_apps_ready()
+  File "/home/hoangtran/miniconda3/envs/tethys_py36/lib/python3.6/site-packages/django/apps/registry.py", line 134, in check_apps_ready
+    settings.INSTALLED_APPS
+  File "/home/hoangtran/miniconda3/envs/tethys_py36/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/hoangtran/miniconda3/envs/tethys_py36/lib/python3.6/site-packages/django/conf/__init__.py", line 64, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting INSTALLED_APPS, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.

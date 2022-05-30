@@ -1,0 +1,10 @@
+# Rescue DAG file, created after running
+#   the upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag DAG file
+# Created 8/25/2021 16:42:28 UTC
+# Rescue DAG version: 2.0.1 (partial)
+#
+# Total number of Nodes: 2
+# Nodes premarked DONE: 0
+# Nodes that failed: 1
+#   create_irrigation_zone_extent_layer,<ENDLIST>
+

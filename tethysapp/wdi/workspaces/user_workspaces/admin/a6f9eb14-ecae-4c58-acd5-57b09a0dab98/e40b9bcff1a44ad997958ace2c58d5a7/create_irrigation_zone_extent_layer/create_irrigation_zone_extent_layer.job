@@ -1,0 +1,14 @@
+log = $(logdir)/$(job_name).$(cluster).log
+error = $(logdir)/$(job_name).$(cluster).$(process).err
+logdir = logs
+output = $(logdir)/$(job_name).$(cluster).$(process).out
+job_name = create_irrigation_zone_extent_layer
+universe = vanilla
+arguments = wdi_primary_db a6f9eb14-ecae-4c58-acd5-57b09a0dab98 postgresql://tethys_super:postgres@192.168.99.135:5436/wdi_primary_db http://192.168.99.135:8181/geoserver/rest/ admin geoserver tethysapp.wdi.services.spatial_managers.wdi.WdiSpatialManager create_extent_layer
+executable = create_extent_layer_executable.py
+initialdir = $(job_name)
+transfer_executable = TRUE
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT_OR_EVICT
+
+queue 1

@@ -1,0 +1,170 @@
+08/25/21 10:53:20 ******************************************************
+08/25/21 10:53:20 ** condor_scheduniv_exec.2742.0 (CONDOR_DAGMAN) STARTING UP
+08/25/21 10:53:20 ** /usr/bin/condor_dagman
+08/25/21 10:53:20 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+08/25/21 10:53:20 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+08/25/21 10:53:20 ** $CondorVersion: 8.6.8 Apr 06 2018 BuildID: Debian-8.6.8~dfsg.1-2 Debian-8.6.8~dfsg.1-2 $
+08/25/21 10:53:20 ** $CondorPlatform: X86_64-Ubuntu_ $
+08/25/21 10:53:20 ** PID = 411794
+08/25/21 10:53:20 ** Log last touched time unavailable (No such file or directory)
+08/25/21 10:53:20 ******************************************************
+08/25/21 10:53:20 Using config source: /etc/condor/condor_config
+08/25/21 10:53:20 Using local config sources: 
+08/25/21 10:53:20    /etc/condor/config.d/00debconf
+08/25/21 10:53:20    /etc/condor/condor_config.local
+08/25/21 10:53:20 config Macros = 73, Sorted = 73, StringBytes = 2387, TablesBytes = 2684
+08/25/21 10:53:20 CLASSAD_CACHING is ENABLED
+08/25/21 10:53:20 Daemon Log is logging: D_ALWAYS D_ERROR
+08/25/21 10:53:20 DaemonCore: No command port requested.
+08/25/21 10:53:20 DAGMAN_USE_STRICT setting: 1
+08/25/21 10:53:20 DAGMAN_VERBOSITY setting: 3
+08/25/21 10:53:20 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+08/25/21 10:53:20 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+08/25/21 10:53:20 DAGMAN_SUBMIT_DELAY setting: 0
+08/25/21 10:53:20 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+08/25/21 10:53:20 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+08/25/21 10:53:20 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+08/25/21 10:53:20 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+08/25/21 10:53:20 DAGMAN_DEFAULT_PRIORITY setting: 0
+08/25/21 10:53:20 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+08/25/21 10:53:20 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+08/25/21 10:53:20 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+08/25/21 10:53:20 DAGMAN_RETRY_NODE_FIRST setting: False
+08/25/21 10:53:20 DAGMAN_MAX_JOBS_IDLE setting: 1000
+08/25/21 10:53:20 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+08/25/21 10:53:20 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+08/25/21 10:53:20 DAGMAN_MAX_POST_SCRIPTS setting: 20
+08/25/21 10:53:20 DAGMAN_MUNGE_NODE_NAMES setting: True
+08/25/21 10:53:20 DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+08/25/21 10:53:20 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+08/25/21 10:53:20 DAGMAN_ALWAYS_RUN_POST setting: False
+08/25/21 10:53:20 DAGMAN_ABORT_DUPLICATES setting: True
+08/25/21 10:53:20 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+08/25/21 10:53:20 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+08/25/21 10:53:20 DAGMAN_AUTO_RESCUE setting: True
+08/25/21 10:53:20 DAGMAN_MAX_RESCUE_NUM setting: 100
+08/25/21 10:53:20 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+08/25/21 10:53:20 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+08/25/21 10:53:20 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+08/25/21 10:53:20 DAGMAN_MAX_JOB_HOLDS setting: 100
+08/25/21 10:53:20 DAGMAN_HOLD_CLAIM_TIME setting: 20
+08/25/21 10:53:20 ALL_DEBUG setting: 
+08/25/21 10:53:20 DAGMAN_DEBUG setting: 
+08/25/21 10:53:20 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+08/25/21 10:53:20 DAGMAN_REMOVE_NODE_JOBS setting: True
+08/25/21 10:53:20 argv[0] == "condor_scheduniv_exec.2742.0"
+08/25/21 10:53:20 argv[1] == "-Lockfile"
+08/25/21 10:53:20 argv[2] == "upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag.lock"
+08/25/21 10:53:20 argv[3] == "-AutoRescue"
+08/25/21 10:53:20 argv[4] == "1"
+08/25/21 10:53:20 argv[5] == "-DoRescueFrom"
+08/25/21 10:53:20 argv[6] == "0"
+08/25/21 10:53:20 argv[7] == "-Dag"
+08/25/21 10:53:20 argv[8] == "upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag"
+08/25/21 10:53:20 argv[9] == "-Suppress_notification"
+08/25/21 10:53:20 argv[10] == "-CsdVersion"
+08/25/21 10:53:20 argv[11] == "$CondorVersion: 8.6.8 Apr 06 2018 BuildID: Debian-8.6.8~dfsg.1-2 Debian-8.6.8~dfsg.1-2 $"
+08/25/21 10:53:20 argv[12] == "-Dagman"
+08/25/21 10:53:20 argv[13] == "/usr/bin/condor_dagman"
+08/25/21 10:53:20 Workflow batch-name: <upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag+2742>
+08/25/21 10:53:20 Workflow accounting_group: <>
+08/25/21 10:53:20 Workflow accounting_group_user: <>
+08/25/21 10:53:20 Warning: failed to get attribute DAGNodeName
+08/25/21 10:53:20 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+08/25/21 10:53:20 Default node log file is: </home/hoangtran/e40b9bcff1a44ad997958ace2c58d5a7/./upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag.nodes.log>
+08/25/21 10:53:20 DAG Lockfile will be written to upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag.lock
+08/25/21 10:53:20 DAG Input file is upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag
+08/25/21 10:53:20 Parsing 1 dagfiles
+08/25/21 10:53:20 Parsing upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag ...
+08/25/21 10:53:20 Dag contains 2 total jobs
+08/25/21 10:53:20 Sleeping for 3 seconds to ensure ProcessId uniqueness
+08/25/21 10:53:23 Bootstrapping...
+08/25/21 10:53:23 Number of pre-completed nodes: 0
+08/25/21 10:53:23 MultiLogFiles: truncating log file /home/hoangtran/e40b9bcff1a44ad997958ace2c58d5a7/./upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag.nodes.log
+08/25/21 10:53:23 DAG status: 0 (DAG_STATUS_OK)
+08/25/21 10:53:23 Of 2 nodes total:
+08/25/21 10:53:23  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/25/21 10:53:23   ===     ===      ===     ===     ===        ===      ===
+08/25/21 10:53:23     0       0        0       0       1          1        0
+08/25/21 10:53:23 0 job proc(s) currently held
+08/25/21 10:53:23 Registering condor_event_timer...
+08/25/21 10:53:24 Submitting HTCondor Node create_irrigation_zone_extent_layer job(s)...
+08/25/21 10:53:24 Adding a DAGMan workflow log /home/hoangtran/e40b9bcff1a44ad997958ace2c58d5a7/./upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag.nodes.log
+08/25/21 10:53:24 Masking the events recorded in the DAGMAN workflow log
+08/25/21 10:53:24 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+08/25/21 10:53:24 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'create_irrigation_zone_extent_layer -a +DAGManJobId' '=' '2742 -a DAGManJobId' '=' '2742 -batch-name upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag+2742 -a submit_event_notes' '=' 'DAG' 'Node:' 'create_irrigation_zone_extent_layer -a dagman_log' '=' '/home/hoangtran/e40b9bcff1a44ad997958ace2c58d5a7/./upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" create_irrigation_zone_extent_layer/create_irrigation_zone_extent_layer.job
+08/25/21 10:53:24 From submit: Submitting job(s).
+08/25/21 10:53:24 From submit: 1 job(s) submitted to cluster 2743.
+08/25/21 10:53:24 	assigned HTCondor ID (2743.0.0)
+08/25/21 10:53:24 Just submitted 1 job this cycle...
+08/25/21 10:53:24 Currently monitoring 1 HTCondor log file(s)
+08/25/21 10:53:24 Reassigning the id of job create_irrigation_zone_extent_layer from (2743.0.0) to (2743.0.0)
+08/25/21 10:53:24 Event: ULOG_SUBMIT for HTCondor Node create_irrigation_zone_extent_layer (2743.0.0) {08/25/21 10:53:24}
+08/25/21 10:53:24 Number of idle job procs: 1
+08/25/21 10:53:24 DAG status: 0 (DAG_STATUS_OK)
+08/25/21 10:53:24 Of 2 nodes total:
+08/25/21 10:53:24  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/25/21 10:53:24   ===     ===      ===     ===     ===        ===      ===
+08/25/21 10:53:24     0       0        1       0       0          1        0
+08/25/21 10:53:24 0 job proc(s) currently held
+08/25/21 10:53:44 Currently monitoring 1 HTCondor log file(s)
+08/25/21 10:53:44 Event: ULOG_EXECUTE for HTCondor Node create_irrigation_zone_extent_layer (2743.0.0) {08/25/21 10:53:40}
+08/25/21 10:53:44 Number of idle job procs: 0
+08/25/21 10:53:49 Currently monitoring 1 HTCondor log file(s)
+08/25/21 10:53:49 Event: ULOG_JOB_TERMINATED for HTCondor Node create_irrigation_zone_extent_layer (2743.0.0) {08/25/21 10:53:46}
+08/25/21 10:53:49 Number of idle job procs: 0
+08/25/21 10:53:49 Node create_irrigation_zone_extent_layer job proc (2743.0.0) completed successfully.
+08/25/21 10:53:49 Node create_irrigation_zone_extent_layer job completed
+08/25/21 10:53:49 DAG status: 0 (DAG_STATUS_OK)
+08/25/21 10:53:49 Of 2 nodes total:
+08/25/21 10:53:49  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/25/21 10:53:49   ===     ===      ===     ===     ===        ===      ===
+08/25/21 10:53:49     1       0        0       0       1          0        0
+08/25/21 10:53:49 0 job proc(s) currently held
+08/25/21 10:53:54 Submitting HTCondor Node finalize job(s)...
+08/25/21 10:53:54 Adding a DAGMan workflow log /home/hoangtran/e40b9bcff1a44ad997958ace2c58d5a7/./upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag.nodes.log
+08/25/21 10:53:54 Masking the events recorded in the DAGMAN workflow log
+08/25/21 10:53:54 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+08/25/21 10:53:54 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'finalize -a +DAGManJobId' '=' '2742 -a DAGManJobId' '=' '2742 -batch-name upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag+2742 -a submit_event_notes' '=' 'DAG' 'Node:' 'finalize -a dagman_log' '=' '/home/hoangtran/e40b9bcff1a44ad997958ace2c58d5a7/./upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"create_irrigation_zone_extent_layer" finalize/finalize.job
+08/25/21 10:53:54 From submit: Submitting job(s).
+08/25/21 10:53:54 From submit: 1 job(s) submitted to cluster 2744.
+08/25/21 10:53:54 	assigned HTCondor ID (2744.0.0)
+08/25/21 10:53:54 Just submitted 1 job this cycle...
+08/25/21 10:53:54 Currently monitoring 1 HTCondor log file(s)
+08/25/21 10:53:54 Reassigning the id of job finalize from (2744.0.0) to (2744.0.0)
+08/25/21 10:53:54 Event: ULOG_SUBMIT for HTCondor Node finalize (2744.0.0) {08/25/21 10:53:54}
+08/25/21 10:53:54 Number of idle job procs: 1
+08/25/21 10:53:54 DAG status: 0 (DAG_STATUS_OK)
+08/25/21 10:53:54 Of 2 nodes total:
+08/25/21 10:53:54  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/25/21 10:53:54   ===     ===      ===     ===     ===        ===      ===
+08/25/21 10:53:54     1       0        1       0       0          0        0
+08/25/21 10:53:54 0 job proc(s) currently held
+08/25/21 10:53:59 Currently monitoring 1 HTCondor log file(s)
+08/25/21 10:53:59 Event: ULOG_EXECUTE for HTCondor Node finalize (2744.0.0) {08/25/21 10:53:55}
+08/25/21 10:53:59 Number of idle job procs: 0
+08/25/21 10:53:59 Event: ULOG_JOB_TERMINATED for HTCondor Node finalize (2744.0.0) {08/25/21 10:53:58}
+08/25/21 10:53:59 Number of idle job procs: 0
+08/25/21 10:53:59 Node finalize job proc (2744.0.0) completed successfully.
+08/25/21 10:53:59 Node finalize job completed
+08/25/21 10:53:59 DAG status: 0 (DAG_STATUS_OK)
+08/25/21 10:53:59 Of 2 nodes total:
+08/25/21 10:53:59  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/25/21 10:53:59   ===     ===      ===     ===     ===        ===      ===
+08/25/21 10:53:59     2       0        0       0       0          0        0
+08/25/21 10:53:59 0 job proc(s) currently held
+08/25/21 10:53:59 All jobs Completed!
+08/25/21 10:53:59 Note: 0 total job deferrals because of -MaxJobs limit (0)
+08/25/21 10:53:59 Note: 0 total job deferrals because of -MaxIdle limit (1000)
+08/25/21 10:53:59 Note: 0 total job deferrals because of node category throttles
+08/25/21 10:53:59 Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+08/25/21 10:53:59 Note: 0 total POST script deferrals because of -MaxPost limit (20) or DEFER
+08/25/21 10:53:59 DAG status: 0 (DAG_STATUS_OK)
+08/25/21 10:53:59 Of 2 nodes total:
+08/25/21 10:53:59  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/25/21 10:53:59   ===     ===      ===     ===     ===        ===      ===
+08/25/21 10:53:59     2       0        0       0       0          0        0
+08/25/21 10:53:59 0 job proc(s) currently held
+08/25/21 10:53:59 Wrote metrics file upload_irrigation_zone_a6f9eb14_ecae_4c58_acd5_57b09a0dab98.dag.metrics.
+08/25/21 10:53:59 Metrics not sent because of PEGASUS_METRICS or CONDOR_DEVELOPERS setting.
+08/25/21 10:53:59 **** condor_scheduniv_exec.2742.0 (condor_DAGMAN) pid 411794 EXITING WITH STATUS 0

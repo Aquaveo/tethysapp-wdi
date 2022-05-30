@@ -1,0 +1,178 @@
+10/13/21 11:31:24 ******************************************************
+10/13/21 11:31:24 ** condor_scheduniv_exec.2931.0 (CONDOR_DAGMAN) STARTING UP
+10/13/21 11:31:24 ** /usr/bin/condor_dagman
+10/13/21 11:31:24 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+10/13/21 11:31:24 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+10/13/21 11:31:24 ** $CondorVersion: 8.6.8 Apr 06 2018 BuildID: Debian-8.6.8~dfsg.1-2 Debian-8.6.8~dfsg.1-2 $
+10/13/21 11:31:24 ** $CondorPlatform: X86_64-Ubuntu_ $
+10/13/21 11:31:24 ** PID = 207753
+10/13/21 11:31:24 ** Log last touched time unavailable (No such file or directory)
+10/13/21 11:31:24 ******************************************************
+10/13/21 11:31:24 Using config source: /etc/condor/condor_config
+10/13/21 11:31:24 Using local config sources: 
+10/13/21 11:31:24    /etc/condor/config.d/00debconf
+10/13/21 11:31:24    /etc/condor/condor_config.local
+10/13/21 11:31:24 config Macros = 73, Sorted = 73, StringBytes = 2341, TablesBytes = 2684
+10/13/21 11:31:24 CLASSAD_CACHING is ENABLED
+10/13/21 11:31:24 Daemon Log is logging: D_ALWAYS D_ERROR
+10/13/21 11:31:24 DaemonCore: No command port requested.
+10/13/21 11:31:24 DAGMAN_USE_STRICT setting: 1
+10/13/21 11:31:24 DAGMAN_VERBOSITY setting: 3
+10/13/21 11:31:24 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+10/13/21 11:31:24 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+10/13/21 11:31:24 DAGMAN_SUBMIT_DELAY setting: 0
+10/13/21 11:31:24 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+10/13/21 11:31:24 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+10/13/21 11:31:24 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+10/13/21 11:31:24 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+10/13/21 11:31:24 DAGMAN_DEFAULT_PRIORITY setting: 0
+10/13/21 11:31:24 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+10/13/21 11:31:24 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+10/13/21 11:31:24 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+10/13/21 11:31:24 DAGMAN_RETRY_NODE_FIRST setting: False
+10/13/21 11:31:24 DAGMAN_MAX_JOBS_IDLE setting: 1000
+10/13/21 11:31:24 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+10/13/21 11:31:24 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+10/13/21 11:31:24 DAGMAN_MAX_POST_SCRIPTS setting: 20
+10/13/21 11:31:24 DAGMAN_MUNGE_NODE_NAMES setting: True
+10/13/21 11:31:24 DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+10/13/21 11:31:24 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+10/13/21 11:31:24 DAGMAN_ALWAYS_RUN_POST setting: False
+10/13/21 11:31:24 DAGMAN_ABORT_DUPLICATES setting: True
+10/13/21 11:31:24 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+10/13/21 11:31:24 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+10/13/21 11:31:24 DAGMAN_AUTO_RESCUE setting: True
+10/13/21 11:31:24 DAGMAN_MAX_RESCUE_NUM setting: 100
+10/13/21 11:31:24 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+10/13/21 11:31:24 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+10/13/21 11:31:24 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+10/13/21 11:31:24 DAGMAN_MAX_JOB_HOLDS setting: 100
+10/13/21 11:31:24 DAGMAN_HOLD_CLAIM_TIME setting: 20
+10/13/21 11:31:24 ALL_DEBUG setting: 
+10/13/21 11:31:24 DAGMAN_DEBUG setting: 
+10/13/21 11:31:24 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+10/13/21 11:31:24 DAGMAN_REMOVE_NODE_JOBS setting: True
+10/13/21 11:31:24 argv[0] == "condor_scheduniv_exec.2931.0"
+10/13/21 11:31:24 argv[1] == "-Lockfile"
+10/13/21 11:31:24 argv[2] == "Review_CropWat_Input.dag.lock"
+10/13/21 11:31:24 argv[3] == "-AutoRescue"
+10/13/21 11:31:24 argv[4] == "1"
+10/13/21 11:31:24 argv[5] == "-DoRescueFrom"
+10/13/21 11:31:24 argv[6] == "0"
+10/13/21 11:31:24 argv[7] == "-Dag"
+10/13/21 11:31:24 argv[8] == "Review_CropWat_Input.dag"
+10/13/21 11:31:24 argv[9] == "-Suppress_notification"
+10/13/21 11:31:24 argv[10] == "-CsdVersion"
+10/13/21 11:31:24 argv[11] == "$CondorVersion: 8.6.8 Apr 06 2018 BuildID: Debian-8.6.8~dfsg.1-2 Debian-8.6.8~dfsg.1-2 $"
+10/13/21 11:31:24 argv[12] == "-Dagman"
+10/13/21 11:31:24 argv[13] == "/usr/bin/condor_dagman"
+10/13/21 11:31:24 Workflow batch-name: <Review_CropWat_Input.dag+2931>
+10/13/21 11:31:24 Workflow accounting_group: <>
+10/13/21 11:31:24 Workflow accounting_group_user: <>
+10/13/21 11:31:24 Warning: failed to get attribute DAGNodeName
+10/13/21 11:31:24 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+10/13/21 11:31:24 Default node log file is: </home/hoangtran/85011b4bcda243b8b3926faac6e9d0c2/./Review_CropWat_Input.dag.nodes.log>
+10/13/21 11:31:24 DAG Lockfile will be written to Review_CropWat_Input.dag.lock
+10/13/21 11:31:24 DAG Input file is Review_CropWat_Input.dag
+10/13/21 11:31:24 Parsing 1 dagfiles
+10/13/21 11:31:24 Parsing Review_CropWat_Input.dag ...
+10/13/21 11:31:24 Dag contains 3 total jobs
+10/13/21 11:31:24 Sleeping for 3 seconds to ensure ProcessId uniqueness
+10/13/21 11:31:27 Bootstrapping...
+10/13/21 11:31:27 Number of pre-completed nodes: 0
+10/13/21 11:31:27 MultiLogFiles: truncating log file /home/hoangtran/85011b4bcda243b8b3926faac6e9d0c2/./Review_CropWat_Input.dag.nodes.log
+10/13/21 11:31:27 DAG status: 0 (DAG_STATUS_OK)
+10/13/21 11:31:27 Of 3 nodes total:
+10/13/21 11:31:27  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/13/21 11:31:27   ===     ===      ===     ===     ===        ===      ===
+10/13/21 11:31:27     0       0        0       0       1          2        0
+10/13/21 11:31:27 0 job proc(s) currently held
+10/13/21 11:31:27 Registering condor_event_timer...
+10/13/21 11:31:28 Submitting HTCondor Node run_cropwat_model job(s)...
+10/13/21 11:31:28 Adding a DAGMan workflow log /home/hoangtran/85011b4bcda243b8b3926faac6e9d0c2/./Review_CropWat_Input.dag.nodes.log
+10/13/21 11:31:28 Masking the events recorded in the DAGMAN workflow log
+10/13/21 11:31:28 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+10/13/21 11:31:28 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'run_cropwat_model -a +DAGManJobId' '=' '2931 -a DAGManJobId' '=' '2931 -batch-name Review_CropWat_Input.dag+2931 -a submit_event_notes' '=' 'DAG' 'Node:' 'run_cropwat_model -a dagman_log' '=' '/home/hoangtran/85011b4bcda243b8b3926faac6e9d0c2/./Review_CropWat_Input.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" run_cropwat_model/run_cropwat_model.job
+10/13/21 11:31:28 From submit: Submitting job(s).
+10/13/21 11:31:28 From submit: 1 job(s) submitted to cluster 2932.
+10/13/21 11:31:28 	assigned HTCondor ID (2932.0.0)
+10/13/21 11:31:28 Just submitted 1 job this cycle...
+10/13/21 11:31:28 Currently monitoring 1 HTCondor log file(s)
+10/13/21 11:31:28 Reassigning the id of job run_cropwat_model from (2932.0.0) to (2932.0.0)
+10/13/21 11:31:28 Event: ULOG_SUBMIT for HTCondor Node run_cropwat_model (2932.0.0) {10/13/21 11:31:28}
+10/13/21 11:31:28 Number of idle job procs: 1
+10/13/21 11:31:28 DAG status: 0 (DAG_STATUS_OK)
+10/13/21 11:31:28 Of 3 nodes total:
+10/13/21 11:31:28  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/13/21 11:31:28   ===     ===      ===     ===     ===        ===      ===
+10/13/21 11:31:28     0       0        1       0       0          2        0
+10/13/21 11:31:28 0 job proc(s) currently held
+10/13/21 11:31:48 Currently monitoring 1 HTCondor log file(s)
+10/13/21 11:31:48 Event: ULOG_EXECUTE for HTCondor Node run_cropwat_model (2932.0.0) {10/13/21 11:31:45}
+10/13/21 11:31:48 Number of idle job procs: 0
+10/13/21 11:31:58 Currently monitoring 1 HTCondor log file(s)
+10/13/21 11:31:58 Event: ULOG_JOB_TERMINATED for HTCondor Node run_cropwat_model (2932.0.0) {10/13/21 11:31:54}
+10/13/21 11:31:58 Number of idle job procs: 0
+10/13/21 11:31:58 Node run_cropwat_model job proc (2932.0.0) completed successfully.
+10/13/21 11:31:58 Node run_cropwat_model job completed
+10/13/21 11:31:58 DAG status: 0 (DAG_STATUS_OK)
+10/13/21 11:31:58 Of 3 nodes total:
+10/13/21 11:31:58  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/13/21 11:31:58   ===     ===      ===     ===     ===        ===      ===
+10/13/21 11:31:58     1       0        0       0       1          1        0
+10/13/21 11:31:58 0 job proc(s) currently held
+10/13/21 11:32:03 Submitting HTCondor Node prepare_results job(s)...
+10/13/21 11:32:03 Adding a DAGMan workflow log /home/hoangtran/85011b4bcda243b8b3926faac6e9d0c2/./Review_CropWat_Input.dag.nodes.log
+10/13/21 11:32:03 Masking the events recorded in the DAGMAN workflow log
+10/13/21 11:32:03 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+10/13/21 11:32:03 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'prepare_results -a +DAGManJobId' '=' '2931 -a DAGManJobId' '=' '2931 -batch-name Review_CropWat_Input.dag+2931 -a submit_event_notes' '=' 'DAG' 'Node:' 'prepare_results -a dagman_log' '=' '/home/hoangtran/85011b4bcda243b8b3926faac6e9d0c2/./Review_CropWat_Input.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"run_cropwat_model" prepare_results/prepare_results.job
+10/13/21 11:32:03 From submit: Submitting job(s).
+10/13/21 11:32:03 From submit: 1 job(s) submitted to cluster 2933.
+10/13/21 11:32:03 	assigned HTCondor ID (2933.0.0)
+10/13/21 11:32:03 Just submitted 1 job this cycle...
+10/13/21 11:32:03 Currently monitoring 1 HTCondor log file(s)
+10/13/21 11:32:03 Reassigning the id of job prepare_results from (2933.0.0) to (2933.0.0)
+10/13/21 11:32:03 Event: ULOG_SUBMIT for HTCondor Node prepare_results (2933.0.0) {10/13/21 11:32:03}
+10/13/21 11:32:03 Number of idle job procs: 1
+10/13/21 11:32:03 DAG status: 0 (DAG_STATUS_OK)
+10/13/21 11:32:03 Of 3 nodes total:
+10/13/21 11:32:03  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/13/21 11:32:03   ===     ===      ===     ===     ===        ===      ===
+10/13/21 11:32:03     1       0        1       0       0          1        0
+10/13/21 11:32:03 0 job proc(s) currently held
+10/13/21 11:32:08 Currently monitoring 1 HTCondor log file(s)
+10/13/21 11:32:08 Event: ULOG_EXECUTE for HTCondor Node prepare_results (2933.0.0) {10/13/21 11:32:05}
+10/13/21 11:32:08 Number of idle job procs: 0
+10/13/21 11:32:13 Currently monitoring 1 HTCondor log file(s)
+10/13/21 11:32:13 Event: ULOG_JOB_TERMINATED for HTCondor Node prepare_results (2933.0.0) {10/13/21 11:32:11}
+10/13/21 11:32:13 Number of idle job procs: 0
+10/13/21 11:32:13 Node prepare_results job proc (2933.0.0) completed successfully.
+10/13/21 11:32:13 Node prepare_results job completed
+10/13/21 11:32:13 DAG status: 0 (DAG_STATUS_OK)
+10/13/21 11:32:13 Of 3 nodes total:
+10/13/21 11:32:13  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/13/21 11:32:13   ===     ===      ===     ===     ===        ===      ===
+10/13/21 11:32:13     2       0        0       0       1          0        0
+10/13/21 11:32:13 0 job proc(s) currently held
+10/13/21 11:32:18 Submitting HTCondor Node finalize job(s)...
+10/13/21 11:32:18 Adding a DAGMan workflow log /home/hoangtran/85011b4bcda243b8b3926faac6e9d0c2/./Review_CropWat_Input.dag.nodes.log
+10/13/21 11:32:18 Masking the events recorded in the DAGMAN workflow log
+10/13/21 11:32:18 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+10/13/21 11:32:18 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'finalize -a +DAGManJobId' '=' '2931 -a DAGManJobId' '=' '2931 -batch-name Review_CropWat_Input.dag+2931 -a submit_event_notes' '=' 'DAG' 'Node:' 'finalize -a dagman_log' '=' '/home/hoangtran/85011b4bcda243b8b3926faac6e9d0c2/./Review_CropWat_Input.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"prepare_results" finalize/finalize.job
+10/13/21 11:32:18 From submit: Submitting job(s).
+10/13/21 11:32:18 From submit: 1 job(s) submitted to cluster 2934.
+10/13/21 11:32:18 	assigned HTCondor ID (2934.0.0)
+10/13/21 11:32:18 Just submitted 1 job this cycle...
+10/13/21 11:32:18 Currently monitoring 1 HTCondor log file(s)
+10/13/21 11:32:18 Reassigning the id of job finalize from (2934.0.0) to (2934.0.0)
+10/13/21 11:32:18 Event: ULOG_SUBMIT for HTCondor Node finalize (2934.0.0) {10/13/21 11:32:18}
+10/13/21 11:32:18 Number of idle job procs: 1
+10/13/21 11:32:18 DAG status: 0 (DAG_STATUS_OK)
+10/13/21 11:32:18 Of 3 nodes total:
+10/13/21 11:32:18  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/13/21 11:32:18   ===     ===      ===     ===     ===        ===      ===
+10/13/21 11:32:18     2       0        1       0       0          0        0
+10/13/21 11:32:18 0 job proc(s) currently held
+10/13/21 11:32:24 Currently monitoring 1 HTCondor log file(s)
+10/13/21 11:32:24 Event: ULOG_EXECUTE for HTCondor Node finalize (2934.0.0) {10/13/21 11:32:20}
+10/13/21 11:32:24 Number of idle job procs: 0

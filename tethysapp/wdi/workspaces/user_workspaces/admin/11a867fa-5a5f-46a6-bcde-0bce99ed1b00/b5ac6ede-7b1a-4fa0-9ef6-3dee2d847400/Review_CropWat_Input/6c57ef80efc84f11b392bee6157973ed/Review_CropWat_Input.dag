@@ -1,0 +1,12 @@
+JOB finalize finalize/finalize.job
+JOB run_cropwat_model run_cropwat_model/run_cropwat_model.job
+JOB prepare_results prepare_results/prepare_results.job
+
+
+PARENT run_cropwat_model CHILD prepare_results
+PARENT prepare_results CHILD finalize
+
+
+
+
+

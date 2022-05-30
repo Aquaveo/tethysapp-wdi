@@ -1,0 +1,13 @@
+JOB create_model_extent_layer create_model_extent_layer/create_model_extent_layer.job
+JOB finalize finalize/finalize.job
+
+
+PARENT create_model_extent_layer CHILD finalize
+
+
+
+CATEGORY create_model_extent_layer geoserver
+
+
+
+MAXJOBS geoserver 1

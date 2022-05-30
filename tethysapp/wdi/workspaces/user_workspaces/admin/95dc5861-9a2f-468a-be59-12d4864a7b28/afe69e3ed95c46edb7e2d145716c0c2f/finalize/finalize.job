@@ -1,0 +1,14 @@
+log = $(logdir)/$(job_name).$(cluster).log
+error = $(logdir)/$(job_name).$(cluster).$(process).err
+logdir = logs
+output = $(logdir)/$(job_name).$(cluster).$(process).out
+job_name = finalize
+universe = vanilla
+arguments = postgresql://tethys_super:postgres@192.168.99.103:5436/wdi_primary_db 95dc5861-9a2f-468a-be59-12d4864a7b28 tethysapp.wdi.models.resources.dataset_resource.WdiDatasetResource create_extent_layer
+executable = update_resource_status.py
+initialdir = $(job_name)
+transfer_executable = TRUE
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT_OR_EVICT
+
+queue 1

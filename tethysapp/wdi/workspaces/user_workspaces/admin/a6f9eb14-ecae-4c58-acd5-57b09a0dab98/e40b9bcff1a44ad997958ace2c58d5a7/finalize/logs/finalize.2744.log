@@ -1,0 +1,24 @@
+000 (2744.000.000) 08/25 10:53:54 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618+[--1]-9618&noUDP&sock=179529_8a36_4>
+    DAG Node: finalize
+...
+001 (2744.000.000) 08/25 10:53:55 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618+[--1]-9618&noUDP&sock=179529_8a36_3>
+...
+006 (2744.000.000) 08/25 10:53:57 Image size of job updated: 3
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (2744.000.000) 08/25 10:53:58 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	2484  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	2484  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       12        3  13586184
+	   Memory (MB)          :        0        1      5346
+...

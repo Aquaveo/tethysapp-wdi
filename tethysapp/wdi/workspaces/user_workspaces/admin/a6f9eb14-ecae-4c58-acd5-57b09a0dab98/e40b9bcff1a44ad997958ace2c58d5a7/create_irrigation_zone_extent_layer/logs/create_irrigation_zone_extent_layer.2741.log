@@ -1,0 +1,24 @@
+000 (2741.000.000) 08/25 10:42:03 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618+[--1]-9618&noUDP&sock=179529_8a36_4>
+    DAG Node: create_irrigation_zone_extent_layer
+...
+001 (2741.000.000) 08/25 10:42:20 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618+[--1]-9618&noUDP&sock=179529_8a36_3>
+...
+006 (2741.000.000) 08/25 10:42:23 Image size of job updated: 80
+	1  -  MemoryUsage of job (MB)
+	80  -  ResidentSetSize of job (KB)
+...
+005 (2741.000.000) 08/25 10:42:24 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	2090  -  Run Bytes Sent By Job
+	3311  -  Run Bytes Received By Job
+	2090  -  Total Bytes Sent By Job
+	3311  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       15        4  13586184
+	   Memory (MB)          :        1        1      5346
+...

@@ -1,0 +1,13 @@
+JOB finalize finalize/finalize.job
+JOB create_irrigation_zone_extent_layer create_irrigation_zone_extent_layer/create_irrigation_zone_extent_layer.job
+
+
+PARENT create_irrigation_zone_extent_layer CHILD finalize
+
+
+
+CATEGORY create_irrigation_zone_extent_layer geoserver
+
+
+
+MAXJOBS geoserver 1

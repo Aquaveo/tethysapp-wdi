@@ -1,0 +1,155 @@
+09/30/21 15:25:22 ******************************************************
+09/30/21 15:25:22 ** condor_scheduniv_exec.2781.0 (CONDOR_DAGMAN) STARTING UP
+09/30/21 15:25:22 ** /usr/bin/condor_dagman
+09/30/21 15:25:22 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+09/30/21 15:25:22 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+09/30/21 15:25:22 ** $CondorVersion: 8.6.8 Apr 06 2018 BuildID: Debian-8.6.8~dfsg.1-2 Debian-8.6.8~dfsg.1-2 $
+09/30/21 15:25:22 ** $CondorPlatform: X86_64-Ubuntu_ $
+09/30/21 15:25:22 ** PID = 709070
+09/30/21 15:25:22 ** Log last touched time unavailable (No such file or directory)
+09/30/21 15:25:22 ******************************************************
+09/30/21 15:25:22 Using config source: /etc/condor/condor_config
+09/30/21 15:25:22 Using local config sources: 
+09/30/21 15:25:22    /etc/condor/config.d/00debconf
+09/30/21 15:25:22    /etc/condor/condor_config.local
+09/30/21 15:25:22 config Macros = 73, Sorted = 73, StringBytes = 2379, TablesBytes = 2684
+09/30/21 15:25:22 CLASSAD_CACHING is ENABLED
+09/30/21 15:25:22 Daemon Log is logging: D_ALWAYS D_ERROR
+09/30/21 15:25:22 DaemonCore: No command port requested.
+09/30/21 15:25:22 DAGMAN_USE_STRICT setting: 1
+09/30/21 15:25:22 DAGMAN_VERBOSITY setting: 3
+09/30/21 15:25:22 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+09/30/21 15:25:22 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+09/30/21 15:25:22 DAGMAN_SUBMIT_DELAY setting: 0
+09/30/21 15:25:22 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+09/30/21 15:25:22 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+09/30/21 15:25:22 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+09/30/21 15:25:22 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+09/30/21 15:25:22 DAGMAN_DEFAULT_PRIORITY setting: 0
+09/30/21 15:25:22 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+09/30/21 15:25:22 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+09/30/21 15:25:22 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+09/30/21 15:25:22 DAGMAN_RETRY_NODE_FIRST setting: False
+09/30/21 15:25:22 DAGMAN_MAX_JOBS_IDLE setting: 1000
+09/30/21 15:25:22 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+09/30/21 15:25:22 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+09/30/21 15:25:22 DAGMAN_MAX_POST_SCRIPTS setting: 20
+09/30/21 15:25:22 DAGMAN_MUNGE_NODE_NAMES setting: True
+09/30/21 15:25:22 DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+09/30/21 15:25:22 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+09/30/21 15:25:22 DAGMAN_ALWAYS_RUN_POST setting: False
+09/30/21 15:25:22 DAGMAN_ABORT_DUPLICATES setting: True
+09/30/21 15:25:22 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+09/30/21 15:25:22 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+09/30/21 15:25:22 DAGMAN_AUTO_RESCUE setting: True
+09/30/21 15:25:22 DAGMAN_MAX_RESCUE_NUM setting: 100
+09/30/21 15:25:22 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+09/30/21 15:25:22 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+09/30/21 15:25:22 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+09/30/21 15:25:22 DAGMAN_MAX_JOB_HOLDS setting: 100
+09/30/21 15:25:22 DAGMAN_HOLD_CLAIM_TIME setting: 20
+09/30/21 15:25:22 ALL_DEBUG setting: 
+09/30/21 15:25:22 DAGMAN_DEBUG setting: 
+09/30/21 15:25:22 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+09/30/21 15:25:22 DAGMAN_REMOVE_NODE_JOBS setting: True
+09/30/21 15:25:22 argv[0] == "condor_scheduniv_exec.2781.0"
+09/30/21 15:25:22 argv[1] == "-Lockfile"
+09/30/21 15:25:22 argv[2] == "upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag.lock"
+09/30/21 15:25:22 argv[3] == "-AutoRescue"
+09/30/21 15:25:22 argv[4] == "1"
+09/30/21 15:25:22 argv[5] == "-DoRescueFrom"
+09/30/21 15:25:22 argv[6] == "0"
+09/30/21 15:25:22 argv[7] == "-Dag"
+09/30/21 15:25:22 argv[8] == "upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag"
+09/30/21 15:25:22 argv[9] == "-Suppress_notification"
+09/30/21 15:25:22 argv[10] == "-CsdVersion"
+09/30/21 15:25:22 argv[11] == "$CondorVersion: 8.6.8 Apr 06 2018 BuildID: Debian-8.6.8~dfsg.1-2 Debian-8.6.8~dfsg.1-2 $"
+09/30/21 15:25:22 argv[12] == "-Dagman"
+09/30/21 15:25:22 argv[13] == "/usr/bin/condor_dagman"
+09/30/21 15:25:22 Workflow batch-name: <upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag+2781>
+09/30/21 15:25:22 Workflow accounting_group: <>
+09/30/21 15:25:22 Workflow accounting_group_user: <>
+09/30/21 15:25:22 Warning: failed to get attribute DAGNodeName
+09/30/21 15:25:22 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+09/30/21 15:25:22 Default node log file is: </home/hoangtran/afe69e3ed95c46edb7e2d145716c0c2f/./upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag.nodes.log>
+09/30/21 15:25:22 DAG Lockfile will be written to upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag.lock
+09/30/21 15:25:22 DAG Input file is upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag
+09/30/21 15:25:22 Parsing 1 dagfiles
+09/30/21 15:25:22 Parsing upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag ...
+09/30/21 15:25:22 Dag contains 2 total jobs
+09/30/21 15:25:22 Sleeping for 3 seconds to ensure ProcessId uniqueness
+09/30/21 15:25:25 Bootstrapping...
+09/30/21 15:25:25 Number of pre-completed nodes: 0
+09/30/21 15:25:25 MultiLogFiles: truncating log file /home/hoangtran/afe69e3ed95c46edb7e2d145716c0c2f/./upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag.nodes.log
+09/30/21 15:25:25 DAG status: 0 (DAG_STATUS_OK)
+09/30/21 15:25:25 Of 2 nodes total:
+09/30/21 15:25:25  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+09/30/21 15:25:25   ===     ===      ===     ===     ===        ===      ===
+09/30/21 15:25:25     0       0        0       0       1          1        0
+09/30/21 15:25:25 0 job proc(s) currently held
+09/30/21 15:25:25 Registering condor_event_timer...
+09/30/21 15:25:26 Submitting HTCondor Node create_dataset_extent_layer job(s)...
+09/30/21 15:25:26 Adding a DAGMan workflow log /home/hoangtran/afe69e3ed95c46edb7e2d145716c0c2f/./upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag.nodes.log
+09/30/21 15:25:26 Masking the events recorded in the DAGMAN workflow log
+09/30/21 15:25:26 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+09/30/21 15:25:26 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'create_dataset_extent_layer -a +DAGManJobId' '=' '2781 -a DAGManJobId' '=' '2781 -batch-name upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag+2781 -a submit_event_notes' '=' 'DAG' 'Node:' 'create_dataset_extent_layer -a dagman_log' '=' '/home/hoangtran/afe69e3ed95c46edb7e2d145716c0c2f/./upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" create_dataset_extent_layer/create_dataset_extent_layer.job
+09/30/21 15:25:26 From submit: Submitting job(s).
+09/30/21 15:25:26 From submit: 1 job(s) submitted to cluster 2782.
+09/30/21 15:25:26 	assigned HTCondor ID (2782.0.0)
+09/30/21 15:25:26 Just submitted 1 job this cycle...
+09/30/21 15:25:26 Currently monitoring 1 HTCondor log file(s)
+09/30/21 15:25:26 Reassigning the id of job create_dataset_extent_layer from (2782.0.0) to (2782.0.0)
+09/30/21 15:25:26 Event: ULOG_SUBMIT for HTCondor Node create_dataset_extent_layer (2782.0.0) {09/30/21 15:25:26}
+09/30/21 15:25:26 Number of idle job procs: 1
+09/30/21 15:25:26 DAG status: 0 (DAG_STATUS_OK)
+09/30/21 15:25:26 Of 2 nodes total:
+09/30/21 15:25:26  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+09/30/21 15:25:26   ===     ===      ===     ===     ===        ===      ===
+09/30/21 15:25:26     0       0        1       0       0          1        0
+09/30/21 15:25:26 0 job proc(s) currently held
+09/30/21 15:25:41 Currently monitoring 1 HTCondor log file(s)
+09/30/21 15:25:41 Event: ULOG_EXECUTE for HTCondor Node create_dataset_extent_layer (2782.0.0) {09/30/21 15:25:37}
+09/30/21 15:25:41 Number of idle job procs: 0
+09/30/21 15:25:51 Currently monitoring 1 HTCondor log file(s)
+09/30/21 15:25:51 Event: ULOG_JOB_TERMINATED for HTCondor Node create_dataset_extent_layer (2782.0.0) {09/30/21 15:25:48}
+09/30/21 15:25:51 Number of idle job procs: 0
+09/30/21 15:25:51 Node create_dataset_extent_layer job proc (2782.0.0) failed with status 1.
+09/30/21 15:25:51 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+09/30/21 15:25:51 Of 2 nodes total:
+09/30/21 15:25:51  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+09/30/21 15:25:51   ===     ===      ===     ===     ===        ===      ===
+09/30/21 15:25:51     0       0        0       0       0          1        1
+09/30/21 15:25:51 0 job proc(s) currently held
+09/30/21 15:25:52 ERROR: the following job(s) failed:
+09/30/21 15:25:52 ---------------------- Job ----------------------
+09/30/21 15:25:52       Node Name: create_dataset_extent_layer
+09/30/21 15:25:52            Noop: false
+09/30/21 15:25:52          NodeID: 0
+09/30/21 15:25:52     Node Status: STATUS_ERROR    
+09/30/21 15:25:52 Node return val: 1
+09/30/21 15:25:52           Error: Job proc (2782.0.0) failed with status 1
+09/30/21 15:25:52 Job Submit File: create_dataset_extent_layer/create_dataset_extent_layer.job
+09/30/21 15:25:52  HTCondor Job ID: (2782.0.0)
+09/30/21 15:25:52       Q_PARENTS: <END>
+09/30/21 15:25:52       Q_WAITING: <END>
+09/30/21 15:25:52      Q_CHILDREN: finalize, <END>
+09/30/21 15:25:52 ---------------------------------------	<END>
+09/30/21 15:25:52 Aborting DAG...
+09/30/21 15:25:52 Writing Rescue DAG to upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag.rescue001...
+09/30/21 15:25:52 Removing submitted jobs...
+09/30/21 15:25:52 Removing any/all submitted HTCondor jobs...
+09/30/21 15:25:52 Running: /usr/bin/condor_rm -const DAGManJobId' '=?=' '2781
+09/30/21 15:25:52 Note: 0 total job deferrals because of -MaxJobs limit (0)
+09/30/21 15:25:52 Note: 0 total job deferrals because of -MaxIdle limit (1000)
+09/30/21 15:25:52 Note: 0 total job deferrals because of node category throttles
+09/30/21 15:25:52 Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+09/30/21 15:25:52 Note: 0 total POST script deferrals because of -MaxPost limit (20) or DEFER
+09/30/21 15:25:52 DAG status: 2 (DAG_STATUS_NODE_FAILED)
+09/30/21 15:25:52 Of 2 nodes total:
+09/30/21 15:25:52  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+09/30/21 15:25:52   ===     ===      ===     ===     ===        ===      ===
+09/30/21 15:25:52     0       0        0       0       0          1        1
+09/30/21 15:25:52 0 job proc(s) currently held
+09/30/21 15:25:52 Wrote metrics file upload_dataset_95dc5861_9a2f_468a_be59_12d4864a7b28.dag.metrics.
+09/30/21 15:25:52 Metrics not sent because of PEGASUS_METRICS or CONDOR_DEVELOPERS setting.
+09/30/21 15:25:52 **** condor_scheduniv_exec.2781.0 (condor_DAGMAN) pid 709070 EXITING WITH STATUS 1

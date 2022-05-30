@@ -1,0 +1,24 @@
+000 (2780.000.000) 09/30 15:21:59 Job submitted from host: <127.0.0.1:9618?addrs=127.0.0.1-9618+[--1]-9618&noUDP&sock=381801_4ec0_4>
+    DAG Node: create_dataset_extent_layer
+...
+001 (2780.000.000) 09/30 15:22:16 Job executing on host: <127.0.0.1:9618?addrs=127.0.0.1-9618+[--1]-9618&noUDP&sock=381801_4ec0_3>
+...
+006 (2780.000.000) 09/30 15:22:24 Image size of job updated: 70772
+	70  -  MemoryUsage of job (MB)
+	70772  -  ResidentSetSize of job (KB)
+...
+005 (2780.000.000) 09/30 15:22:28 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1752  -  Run Bytes Sent By Job
+	3311  -  Run Bytes Received By Job
+	1752  -  Total Bytes Sent By Job
+	3311  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       15        4  13682752
+	   Memory (MB)          :       70        1      5346
+...
